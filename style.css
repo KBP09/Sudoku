@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 100px;
+}
+#sudoku-board {
+    display: grid;
+    grid-template-columns: repeat(9, 40px);
+    grid-gap: 2px;
+    margin: 20px 0;
+}
+
+input[type="number"] {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+button {
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+}
+#timer{
+    margin-top: 100px;
+    font-size: 30px;
+}
